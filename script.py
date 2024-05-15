@@ -7,11 +7,11 @@ if __name__ == "__main__":
     # json_dict =  "{#date#:#2024-04-25$17:00:00#,#CO#:637.25}"
     # codigo_estacion = "CA-CC-01"
 
-    # json_dict = str(sys.argv[1])
-    # codigo_estacion = str(sys.argv[2]) 
+    json_dict = str(sys.argv[1])
+    codigo_estacion = str(sys.argv[2]) 
 
-    json_dict =  "{#date#:#2024-04-25$17:00:00#,#CO#:637.25}"
-    codigo_estacion = "CA-CC-01"
+    # json_dict =  "{#date#:#2024-04-25$17:00:00#,#CO#:637.25}"
+    # codigo_estacion = "CA-CC-01"
 
     Tabla_img = Graficar_Tabla_Estacion()
 
